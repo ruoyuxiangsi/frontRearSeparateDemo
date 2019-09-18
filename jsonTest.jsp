@@ -12,16 +12,16 @@
     <script type="text/javascript" src="lib/jquery-1.9.1.min.js"></script>
     <script type="text/javascript">
 
-        /*//---------------测试js中的字符串和json对象相互转化------------------------
+        /*//---------------测试js中的字符串和js对象相互转化------------------------
 
         var str = '{"name":"zhangsna", "age":"18"}';
 
         var jsonObj = JSON.parse(str);
-        // 将字符串转化为json对象
+        // 将字符串转化为js对象
         // json对象，是个对象的类型
         //alert(jsonObj);
 
-        // 将json对象转化为字符串
+        // 将js对象转化为字符串
         var str1 = JSON.stringify(jsonObj)
         //alert(str1);
 
